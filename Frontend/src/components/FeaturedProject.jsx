@@ -9,7 +9,7 @@ export const FeaturedProject = () => (
       className="w-full h-80 object-cover rounded-lg mb-6"
     />
     <div className="flex justify-between items-start mb-4">
-      <h2 className="text-3xl font-serif font-bold bg-gradient-to-r from-yellow-400 to-yellow-500 bg-clip-text text-transparent">
+      <h2 className="text-3xl font-serif font-bold bg-gradient-to-r from-white to-white bg-clip-text text-transparent">
         AI-Powered Portfolio Generator
       </h2>
       <ProjectRating rating={5} />

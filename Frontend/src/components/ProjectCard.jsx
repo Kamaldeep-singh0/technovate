@@ -4,7 +4,7 @@ import { ProjectDetails } from './ProjectDetails';
 export const ProjectCard = ({ project }) => (
   <div className="bg-gray-950 rounded-xl p-6 transform transition-all hover:scale-[1.02] hover:shadow-2xl hover:shadow-purple-500/20">
     <div className="flex justify-between items-start mb-2">
-      <h3 className="text-xl font-serif font-bold bg-gradient-to-r from-yellow-300 to-yellow-300 bg-clip-text text-transparent">
+      <h3 className="text-xl font-serif font-bold bg-gradient-to-r from-white to-white bg-clip-text text-transparent">
         {project.title}
       </h3>
       <ProjectRating rating={project.rating} />
