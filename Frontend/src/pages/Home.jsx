@@ -2,6 +2,8 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Star, Users, Zap } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { BackgroundLines } from '../components/ui/background-lines';
+
 
 const Home = () => {
   return (
@@ -11,16 +13,11 @@ const Home = () => {
       exit={{ opacity: 0 }}
       className="pt-16"
     >
+     
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center">
-        <div className="absolute inset-0 z-0">
-          <img
-            src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&q=80"
-            alt="Hero background"
-            className="w-full h-full object-cover opacity-30"
-          />
-          <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-black"></div>
-        </div>
+      <BackgroundLines className="relative h-screen flex items-center px-4 bg-black">
+     
+      
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
@@ -58,7 +55,7 @@ const Home = () => {
             </motion.div>
           </div>
         </div>
-      </section>
+        </BackgroundLines>
 
       {/* Features Section */}
       <section className="py-24 bg-black">
@@ -98,6 +95,7 @@ const Feature = ({ icon, title, description }) => (
     </div>
     <h3 className="text-xl font-semibold mb-2">{title}</h3>
     <p className="text-gray-400">{description}</p>
+    
   </motion.div>
 );
 
