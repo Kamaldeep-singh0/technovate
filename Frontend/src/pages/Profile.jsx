@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Github as GitHub, Linkedin as LinkedIn, MapPin, Book, Briefcase } from 'lucide-react';
+import { Mail,  MapPin, Book, Briefcase } from 'lucide-react';
 
 const Profile = () => {
   return (
