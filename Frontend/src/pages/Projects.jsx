@@ -60,7 +60,7 @@ const Projects = () => {
         // Ensure data is an array
         const projectsArray = Array.isArray(data) ? data : [data];
         
-        // Validate each project
+        
         const validProjects = projectsArray.filter(validateProject);
         
         if (validProjects.length === 0) {

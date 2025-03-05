@@ -9,10 +9,9 @@ const ProjectCardShimmer = () => {
       exit={{ opacity: 0 }}
       className="min-h-screen bg-black relative overflow-hidden"
     >
-      {/* Background Gradient */}
+    
       <div className="absolute inset-0 bg-gradient-to-br from-purple-900/30 via-black to-black" />
 
-      {/* Blurred Color Effects */}
       <div className="absolute inset-0">
         <div className="absolute top-0 left-0 w-96 h-96 bg-purple-500/20 rounded-full filter blur-3xl" />
         <div className="absolute bottom-0 right-0 w-96 h-96 bg-blue-500/20 rounded-full filter blur-3xl" />
