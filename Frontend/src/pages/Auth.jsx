@@ -20,10 +20,10 @@ const Auth = () => {
     setError('');
 
     try {
-      // Using the exact endpoints from the documentation
+     
       const endpoint = `${API_BASE_URL}/api/auth${authMode === 'login' ? '/login' : '/signup'}`;
       
-      // Prepare request body based on auth mode
+     
       const requestBody = authMode === 'login' 
         ? { 
             email: formData.email, 
