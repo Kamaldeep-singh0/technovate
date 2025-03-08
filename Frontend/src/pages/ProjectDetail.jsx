@@ -41,7 +41,6 @@ const ProjectDetail = () => {
     if (!userRating) return;
     
     try {
-      // You would typically make an API call here to update the rating
       const response = await fetch(`${API_BASE_URL}/api/projects/${id}/rate`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -51,7 +50,6 @@ const ProjectDetail = () => {
       if (response.ok) {
         const updatedProject = await response.json();
         setProject(updatedProject);
-        // Add success feedback here
       }
     } catch (err) {
       console.error('Error submitting rating:', err);

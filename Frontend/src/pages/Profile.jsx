@@ -11,7 +11,7 @@ const Profile = () => {
       className="pt-24 pb-16 min-h-screen bg-black"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Profile Header */}
+     
         <div className="mb-12">
           <div className="flex items-start gap-8">
             <img
@@ -86,7 +86,7 @@ const Profile = () => {
           </div>
         </div>
 
-        {/* Projects Section */}
+       
         <div>
           <h2 className="text-2xl font-semibold mb-6">My Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

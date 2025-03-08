@@ -14,7 +14,7 @@ const Home = () => {
       className="pt-16"
     >
      
-      {/* Hero Section */}
+    
       <BackgroundLines className="relative h-screen flex items-center px-4 bg-black">
      
       
