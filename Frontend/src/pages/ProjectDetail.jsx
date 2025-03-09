@@ -53,7 +53,7 @@ const ProjectDetail = () => {
       }
     } catch (err) {
       console.error('Error submitting rating:', err);
-      // Add error feedback here
+     
     }
   };
 
@@ -101,7 +101,7 @@ const ProjectDetail = () => {
 
   return (
     <div className="min-h-screen bg-black text-white relative overflow-hidden">
-      {/* Background gradients */}
+     
       <div className="absolute inset-0 bg-gradient-to-br from-purple-900/30 via-black to-black" />
       <div className="absolute inset-0 bg-gradient-to-br from-purple-900/30 via-black to-black" />
       <div className="absolute inset-0">
@@ -109,10 +109,10 @@ const ProjectDetail = () => {
         <div className="absolute bottom-0 right-0 w-96 h-96 bg-blue-500/20 rounded-full filter blur-3xl" />
       </div>
 
-      {/* Content */}
+      
       <div className="relative z-10 pt-8">
         <div className="max-w-4xl mx-auto px-4 py-12">
-          {/* Project Header */}
+        
           <div className="flex items-center gap-6 mb-8">
             <div className="w-24 h-24 rounded-full overflow-hidden bg-gray-800/50 backdrop-blur-sm flex items-center justify-center border border-white/10">
               <User size={40} className="text-gray-400" />
@@ -140,7 +140,7 @@ const ProjectDetail = () => {
             />
           </div>
 
-          {/* Action Buttons - Moved under the image */}
+         
           <div className="flex flex-wrap gap-4 mb-8">
           <button 
               onClick={() => setLiked(!liked)}
