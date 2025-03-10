@@ -176,7 +176,7 @@ const ProjectDetail = () => {
            
           </div>
 
-          {/* Tech Stack */}
+        
           <div className="bg-gray-900/40 backdrop-blur-lg rounded-xl p-6 mb-8 border border-white/10">
             <h2 className="text-xl font-bold mb-4">Tech Stack</h2>
             <div className="flex flex-wrap gap-3">
